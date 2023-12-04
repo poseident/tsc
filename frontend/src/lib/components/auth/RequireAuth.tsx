@@ -10,7 +10,7 @@ const RequireAuth = ({
   redirectTo = '/login',
 }: PrivateRouteProps) => {
   // add your own authentication logic here
-  const isAuthenticated = false;
+  const isAuthenticated = true;
 
   return isAuthenticated ? (
     (children as React.ReactElement)
